@@ -33,5 +33,6 @@
 
 (process-md "index.md")
 
+(sh "cp" "-r" (str src "img") public)
 (sh "cp" "-r" (str src "css") public)
 (sh "cp" "-r" (str src "js") public)
